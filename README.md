@@ -9,4 +9,4 @@ Version: Node.js v16.9.x
 Language: TypeScript  
 
 ### Project
-Link: [클릭](https://github.com/devbjun/blockchain-study/study01)
+Link: [클릭](https://github.com/devbjun/blockchain-study/tree/main/study_01)
