@@ -1,0 +1,1 @@
+solana program deploy dist/program/${1}
