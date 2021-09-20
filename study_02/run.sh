@@ -1,0 +1,1 @@
+docker run --rm --name solana-rust-node -v $(pwd):/home/app -w /home/app -it ${1}/solana-rust-node:latest /bin/bash -c "rm -rf ./test-ledger && solana config set --url localhost && solana-keygen new && yarn start:solana"
