@@ -1,0 +1,1 @@
+docker exec -it solana-rust-node /bin/bash
