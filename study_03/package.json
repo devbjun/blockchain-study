@@ -1,0 +1,26 @@
+{
+  "name": "study_02",
+  "version": "0.0.1",
+  "description": "Solana 블록체인을 사용한 Smart Contract 배포 예제",
+  "main": "main.ts",
+  "author": "Jeong Jun Bak <dev_bjun@meshyarn.io>",
+  "license": "GPL-3.0",
+  "private": false,
+  "scripts": {
+    "truffle": "truffle",
+    "pretty": "prettier --write '{,test/**/,migrations/**/}*.ts|js'"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.0",
+    "dotenv": "^10.0.0",
+    "loom-truffle-provider": "^0.16.0",
+    "truffle": "^5.4.25"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.4"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
